@@ -1,0 +1,18 @@
+{
+  "name": "crawlcat",
+  "version": "0.1.0",
+  "description": "An orange cat with eight legs that sits on a web over pump.fun, taps every new mint with eight paws, knits its own memes and trades the clean ones.",
+  "type": "module",
+  "license": "MIT",
+  "bin": { "crawlcat": "src/cli.ts" },
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "crawlcat": "node src/cli.ts",
+    "hunt": "node src/cli.ts hunt",
+    "knit": "node src/cli.ts knit",
+    "desk": "node src/cli.ts desk",
+    "test": "node --test test/*.test.ts"
+  },
+  "keywords": ["solana", "pump.fun", "memecoin", "trading-bot", "rug-check", "ai-agents", "cat"],
+  "dependencies": {}
+}
